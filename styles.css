@@ -878,6 +878,32 @@ main > section:not(.hero)::before {
     transform: translateY(-1px);
 }
 
+.donor-name a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.donor-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.donor-logo-link {
+    display: block;
+    text-align: center;
+}
+
+.donor-logo {
+    max-width: 150px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: var(--spacing-xs);
+}
+
 .panel-donation-widget {
     margin: var(--spacing-xl) 0;
 }
