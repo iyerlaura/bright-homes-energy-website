@@ -176,6 +176,7 @@ function addImpactCardInteractivity() {
 function initializePanelDonationCalculator() {
     const panelSlider = document.getElementById('panel-slider');
     if (!panelSlider) return;
+    const donateButton = document.getElementById('donate-button');
     
     // Calculate price per panel based on project data
     // $1.2M for 63 homes = ~$19,048 per home
@@ -206,6 +207,12 @@ function initializePanelDonationCalculator() {
         // Update savings impact
         document.getElementById('annual-savings-impact').textContent = `$${annualSavings.toLocaleString()}`;
         document.getElementById('total-savings-impact').textContent = `$${totalSavings.toLocaleString()}`;
+
+        if (donateButton) {
+            const baseUrl = donateButton.getAttribute('data-donate-base') || donateButton.href;
+            const amountParam = totalAmount.toFixed(2);
+            donateButton.href = `${baseUrl}?amount=${encodeURIComponent(amountParam)}`;
+        }
     }
     
     // Initialize display
