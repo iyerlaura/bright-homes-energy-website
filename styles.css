@@ -741,6 +741,13 @@ main > section:not(.hero)::before {
     object-fit: contain;
 }
 
+.habitat-logo-large {
+    max-width: 250px !important;
+    max-height: 250px !important;
+    width: auto;
+    height: auto;
+}
+
 /* Get Involved Section */
 .get-involved {
     background: linear-gradient(180deg, var(--white) 0%, var(--section-soft) 100%);
