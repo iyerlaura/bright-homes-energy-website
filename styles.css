@@ -909,10 +909,10 @@ main > section:not(.hero)::before {
 .donor-logo-white-bg {
     background: var(--white);
     border-radius: var(--radius-md);
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm);
     box-shadow: var(--shadow-sm);
-    min-width: 200px;
-    min-height: 100px;
+    min-width: 150px;
+    min-height: 75px;
     display: flex;
     align-items: center;
     justify-content: center;
