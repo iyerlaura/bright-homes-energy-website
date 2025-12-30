@@ -895,6 +895,11 @@ main > section:not(.hero)::before {
     text-align: center;
     padding: var(--spacing-sm);
     transition: opacity 0.3s ease;
+    min-width: 200px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .donor-logo-link:hover {
@@ -906,6 +911,11 @@ main > section:not(.hero)::before {
     border-radius: var(--radius-md);
     padding: var(--spacing-md);
     box-shadow: var(--shadow-sm);
+    min-width: 200px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .donor-logo-white-bg:hover {
