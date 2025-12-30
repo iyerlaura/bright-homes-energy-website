@@ -126,9 +126,20 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     white-space: nowrap;
     flex-shrink: 0;
     margin-right: var(--spacing-md);
+}
+
+.header-logo {
+    max-width: 80px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: var(--spacing-xs);
+    align-self: flex-start;
 }
 
 .nav-logo .logo-text {
