@@ -893,15 +893,20 @@ main > section:not(.hero)::before {
 .donor-logo-link {
     display: block;
     text-align: center;
+    padding: var(--spacing-sm);
+    transition: opacity 0.3s ease;
+}
+
+.donor-logo-link:hover {
+    opacity: 0.8;
 }
 
 .donor-logo {
-    max-width: 150px;
+    max-width: 180px;
     max-height: 80px;
     width: auto;
     height: auto;
     object-fit: contain;
-    margin-bottom: var(--spacing-xs);
 }
 
 .panel-donation-widget {
