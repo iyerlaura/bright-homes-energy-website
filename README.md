@@ -8,7 +8,7 @@ This repository is configured to automatically deploy to GitHub Pages using GitH
 
 ### To Enable GitHub Pages:
 
-1. Go to your repository on GitHub: https://github.com/iyerlaura/bright-homes-energy-website
+1. Go to your repository on GitHub: https://github.com/southernsustainability/bright-homes-energy-website
 2. Click on **Settings** (in the repository menu)
 3. Scroll down to **Pages** in the left sidebar
 4. Under **Source**, select **GitHub Actions**
@@ -17,7 +17,7 @@ This repository is configured to automatically deploy to GitHub Pages using GitH
 ### Your Site URL
 
 Once enabled and deployed, your site will be available at:
-**https://iyerlaura.github.io/bright-homes-energy-website/**
+**https://southernsustainability.github.io/bright-homes-energy-website/**
 
 ### Automatic Deployment
 
