@@ -857,8 +857,9 @@ main > section:not(.hero)::before {
 .donor-logos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: var(--spacing-sm);
+    gap: var(--spacing-lg);
     justify-items: center;
+    align-items: center;
 }
 
 .donor-name {
@@ -907,11 +908,12 @@ main > section:not(.hero)::before {
     border-radius: var(--radius-md);
     padding: var(--spacing-md);
     box-shadow: var(--shadow-sm);
-    min-width: 200px;
-    min-height: 100px;
+    width: 200px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .donor-logo-white-bg:hover {
