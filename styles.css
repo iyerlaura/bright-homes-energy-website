@@ -891,15 +891,11 @@ main > section:not(.hero)::before {
 }
 
 .donor-logo-link {
-    display: block;
-    text-align: center;
-    padding: var(--spacing-sm);
-    transition: opacity 0.3s ease;
-    min-width: 200px;
-    min-height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    transition: all 0.3s ease;
 }
 
 .donor-logo-link:hover {
@@ -909,10 +905,10 @@ main > section:not(.hero)::before {
 .donor-logo-white-bg {
     background: var(--white);
     border-radius: var(--radius-md);
-    padding: var(--spacing-sm);
+    padding: var(--spacing-md);
     box-shadow: var(--shadow-sm);
-    min-width: 150px;
-    min-height: 75px;
+    min-width: 200px;
+    min-height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
