@@ -706,6 +706,30 @@ main > section:not(.hero)::before {
     margin-bottom: var(--spacing-sm);
 }
 
+.partner-card h4 a {
+    color: var(--primary-navy);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.partner-card h4 a:hover {
+    color: var(--accent-green);
+}
+
+.partner-logo-link {
+    display: block;
+    margin-bottom: var(--spacing-md);
+    text-align: center;
+}
+
+.partner-logo {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
 /* Get Involved Section */
 .get-involved {
     background: linear-gradient(180deg, var(--white) 0%, var(--section-soft) 100%);
